@@ -27,3 +27,11 @@ code {
   padding-inline: 70px;
 }
 /* HEADER */
+.burger{
+  display: none;
+}
+@media (max-width: 768px) {
+ .burger{
+  display: block;
+ }
+}

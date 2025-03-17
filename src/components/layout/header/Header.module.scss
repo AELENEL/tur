@@ -330,7 +330,9 @@
       }
     }
   }
-  
+  .burgerMenuContent{
+    display: none;
+  }
   @media (max-width: 768px) {
     .burger-toggle {
       display: block; 
@@ -339,7 +341,9 @@
     .burger-menu {
       display: block;
     }
-    
+    .burgerMenuContent{
+      display: block;
+    }
     .partOne {
       p {
         display: none;
@@ -355,5 +359,8 @@
         }
       }
     }
+  }
+  .burger{
+    display: block;
   }
 }
