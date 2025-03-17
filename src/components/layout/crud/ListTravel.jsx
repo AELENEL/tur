@@ -11,18 +11,14 @@ const ListTravel = () => {
   const navigate = useNavigate();
   // In a component
 
-  // Add a product to basket
-  const handleAddToBasket = (product) => {
-    addBasket(product);
-  };
+ 
   const {
     searchMas,
     deleteTravel,
     readTravel,
     data,
     getMoreProduct,
-    addBasket,
-    basket,
+   
   } = useData();
 
   useEffect(() => {
@@ -91,8 +87,9 @@ const ListTravel = () => {
               <img src={item.image} alt="img" />
               <div className={scss.text}>
                 <h2>{item.location}</h2>
-                <p>price : {item.price}</p>
-                <p>person : {item.person}</p>
+                <p>price : {item.price} c</p>
+                <p>person : {item.person} макс</p>
+                
               </div>
               <button
                 onClick={() => navigate("/about", getMoreProduct(item._id))}

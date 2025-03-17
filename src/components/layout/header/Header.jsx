@@ -204,17 +204,6 @@ const Header = () => {
                 </>
               )}
             </div>
-            <div className={scss.burgerMenuContainer}>
-              <h4 className="burger" onClick={toggleBurgerMenu}>
-                <CiMenuBurger />
-              </h4>
-              {burgerMenuOpen && (
-                <div className={scss.burgerMenuContent}>
-                  <button onClick={() => navigate("/")}>Home</button>
-                  <button onClick={() => navigate("/addn")}>Admin</button>
-                </div>
-              )}
-            </div>
           </div>
         </div>
       </div>

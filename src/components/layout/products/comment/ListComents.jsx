@@ -48,6 +48,7 @@ const ListComents = () => {
                       <p>{item.message}</p>
                     </div>
                   </StyledWrapper>
+                  
                   <div className={scss.btn}>
                     <button onClick={() => navigate(`/edit/${item._id}`)}>
                       <FaPen />

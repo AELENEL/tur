@@ -1,4 +1,3 @@
-// AddTravel.module.scss
 .admin {
   padding-block: 100px;
 }
@@ -65,7 +64,6 @@
     }
   }
 
-  // Custom styling to match the website design in the image
   position: relative;
 
   &::before {
@@ -78,7 +76,6 @@
   }
 }
 
-// Media queries for responsive design
 @media (max-width: 768px) {
   .block {
     max-width: 90%;

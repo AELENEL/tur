@@ -99,7 +99,7 @@ const TravelContext = ({ children }) => {
       type: "GET",
       payload: result,
     });
-    if (!searchValue) {
+    if (!searchValue) {n
       readProduct();
     }
   }
@@ -157,11 +157,9 @@ const TravelContext = ({ children }) => {
         (item) => item.location.toLowerCase() == value.toLowerCase()
       );
       dispatch({
-        type: "FILTER", // Change to "GET" to update the displayed data
+        type: "FILTER", 
         payload: result,
       });
-
-      // Add this to restore all data when no filter is applied
     }
   }
 
@@ -179,7 +177,6 @@ const TravelContext = ({ children }) => {
     moreProd: state.moreProd,
     //!
     addProduct,
-
     readProduct,
     deleteProduct,
     editProduct,

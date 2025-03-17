@@ -35,3 +35,12 @@ code {
   display: block;
  }
 }
+.bg {
+  width: 70%;
+  height: 500px;
+  background-image: url("./components/layout/image/tour-20.png");
+  background-size: cover;
+  -webkit-box-shadow: inset 200px 93px 300px 0px rgba(222, 242, 231, 1);
+  -moz-box-shadow: inset 200px 93px 300px 0px rgba(222, 242, 231, 1);
+  box-shadow: inset 200px 93px 300px 0px rgba(222, 242, 231, 1);
+}

@@ -32,7 +32,9 @@ const Footer = () => {
           <ul className="footer__list">
             <li className="footer__list-item">
               <FaMapMarkerAlt className="footer__icon" />
-              <span><a href="https://go.2gis.com/VIqIg">улица Куренкеева 138</a></span>
+              <span>
+                <a href="https://go.2gis.com/VIqIg">улица Куренкеева 138</a>
+              </span>
             </li>
             <li className="footer__list-item">
               <FaPhone className="footer__icon" />
@@ -57,16 +59,25 @@ const Footer = () => {
         <div className="footer__column">
           <h3 className="footer__title">Следите за нами</h3>
           <div className="footer__social">
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://www.facebook.com/?locale=ru_RU"
+              className="footer__social-link"
+            >
               <FaFacebookF className="footer__social-icon" />
             </a>
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://www.instagram.com/"
+              className="footer__social-link"
+            >
               <FaInstagram className="footer__social-icon" />
             </a>
-            <a href="#" className="footer__social-link">
+            <a href="https://x.com/" className="footer__social-link">
               <FaTwitter className="footer__social-icon" />
             </a>
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://web.telegram.org/k/"
+              className="footer__social-link"
+            >
               <FaTelegram className="footer__social-icon" />
             </a>
           </div>
@@ -75,7 +86,10 @@ const Footer = () => {
               <h4 className="footer__subtitle">Оставьте отзыв</h4>
             </Link>
             <div className="footer__form">
-           <Link to="/feed">   <h3>Отзывы </h3></Link>
+              <Link to="/feed">
+                {" "}
+                <h3>Отзывы </h3>
+              </Link>
             </div>
           </div>
         </div>

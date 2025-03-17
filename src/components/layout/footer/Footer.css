@@ -184,7 +184,6 @@
   text-decoration: underline;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .footer__container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
