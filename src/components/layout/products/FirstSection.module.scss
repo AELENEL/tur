@@ -1,0 +1,53 @@
+#FirstSection {
+  background: #def2e7;
+}
+.partTwo {
+  display: flex;
+  justify-content: space-between;
+ 
+  margin-left: auto;
+
+  .two_left {
+    padding-block: 50px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      color: rgb(196, 196, 13);
+    }
+    p {
+      font-size: 15px;
+      color: rgb(101, 164, 85);
+    }
+  }
+  .search {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h3 {
+      font-weight: 600px;
+      color: rgb(13, 101, 202);
+    }
+    .btn_filters {
+      display: flex;
+      gap: 15px;
+      button {
+        padding: 7px 20px;
+        font-weight: 700;
+        font-size: 16px;
+        background: rgb(101, 164, 85);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        // transition: 0.7s;
+      }
+      // button:hover {
+      //   transform: scale(1.1);
+      //   color: rgb(13, 101, 202);
+      // }
+    }
+
+    }
+  }
+
